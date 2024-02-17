@@ -1,0 +1,36 @@
+.HeaderDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    line-height: 50px;
+    min-width: 800px;
+}
+
+.InputStyle {
+    width: 460px;
+    height: 25px;    
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+    text-indent: 1em;
+}
+
+.LogoBtn {
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 1.2em;
+}
+
+.HeaderBtn{
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.HeaderBtn:hover {
+    text-decoration: none;
+    color: slateblue;
+    font-weight: bold;
+}

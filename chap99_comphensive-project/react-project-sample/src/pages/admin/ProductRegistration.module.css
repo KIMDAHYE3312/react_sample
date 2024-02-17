@@ -1,0 +1,70 @@
+.productSection{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.productInfoDiv{
+    display: flex;
+    width: 350px;
+}
+
+.productInfoInput {    
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    background-color: white;
+    text-indent: 0.5em;
+}
+
+.productInfoDiv table {
+    width: 100%;
+}
+
+.textAreaStyle {
+    width: 100%;
+    height: 6.25em;
+    border: 1px solid black;
+    border-radius: 10px;
+    resize: none;
+}
+
+.productButtonDiv{
+    display: flex;
+    justify-content: flex-end;
+}
+.productButtonDiv button{
+    margin: 5px;    
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 25px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: white;
+    font-weight: bold;
+}
+
+.productImageDiv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productImage{
+    margin-top: 5px;
+    width: 80%;
+    height: 90%;    
+}
+
+.productImageButton{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: white;
+    font-weight: bold;
+}

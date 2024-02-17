@@ -1,0 +1,45 @@
+.backgroundDiv{
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /*수평 정렬*/
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: #E8E8E8;
+}
+
+.loginDiv{    
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; /*수평 정렬*/
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 25px;    
+}
+
+.loginDiv input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+    width: 250px;
+    border-radius: 25px;
+    text-indent: 10px;
+}
+
+.loginDiv button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+    width: 250px;
+    border-radius: 25px;
+    background-color: white;
+    font-weight: bold;
+}
+

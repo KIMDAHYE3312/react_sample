@@ -1,0 +1,42 @@
+.reviewDetailtableDiv {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 850px;
+    margin: 10px;
+}
+
+.reviewDetailtableCss{
+    width: 80%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.reviewDetailtableCss th, td {
+    padding: 10px;
+    height: 10px;
+    text-align: center;
+    word-break:break-all;
+    table-layout:fixed;
+}
+
+.contentTextArea{
+    width: 90%;
+    height: 250px;
+    resize: none;
+}
+
+.ReviewDetailInput{
+    width: 87%;
+}
+
+.backBtn {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+    width: 250px;
+    border-radius: 25px;
+    background-color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,42 @@
+.purchaseDiv{
+    display: flex;
+    flex-direction: row;
+}
+
+.purchasInfoDiv{
+    margin-top: 10px;
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.purchasInfoDiv button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+    width: 250px;
+    border-radius: 25px;
+    background-color: white;
+    font-weight: bold;
+}
+
+
+.purchasInfoDiv h3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.purchaseInput{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 20px;
+    width: 80%;
+    border-radius: 25px;
+    background-color: white;
+    font-weight: bold;
+    text-indent: 1em;
+}
+

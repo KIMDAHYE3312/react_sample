@@ -1,0 +1,31 @@
+.paymentDiv{
+    margin-top: 20px;
+}
+
+.paymentTable{
+    width: 800px;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.paymentTable th, td {
+    padding: 10px;
+    height: 10px;
+    text-align: center;
+    word-break:break-all;
+    table-layout:fixed;
+}
+
+.paymentTable tr:hover { 
+    background-color: #F5F5F5; 
+}
+
+.reviewWriteBtn {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+    width: 100px;
+    border-radius: 25px;
+    background-color: white;
+    font-weight: bold;
+}

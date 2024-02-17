@@ -1,0 +1,35 @@
+.MyPageNavbarDiv{
+    min-width: 200px;    
+    border-right: 1px solid black;
+}
+
+.MyPageNavbarUl {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;    
+    list-style:none;
+    padding-left:0px;    
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.MyPageNavbarUl li {
+    width: 100%;
+    padding-left: 20px;
+    height: auto;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;    
+    color: black;
+}
+
+a:focus, a:hover {
+    text-decoration: none;
+    color: slateblue;
+    font-weight: bold;
+}

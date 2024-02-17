@@ -1,0 +1,47 @@
+.reviewTableDiv {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 850px;
+    height: 100%;
+    margin: 10px;
+}
+
+.reviewTableCss{
+    width: 80%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.reviewTableCss th, td {
+    padding: 10px;
+    height: 10px;
+    text-align: center;
+    word-break:break-all;
+    table-layout:fixed;
+}
+
+.reviewTableCss tr:hover { 
+    background-color: #F5F5F5; 
+}
+
+.reviewTableCss tr {
+    cursor: pointer;
+}
+
+.pagingDiv{
+    height: 50px
+}
+
+.pagingBtn{
+    margin: 5px;
+    border-radius: 25px;
+    background-color: white;
+    font-weight: bold;
+}
+
+.pagingBtn:hover{
+    cursor: pointer;
+    background-color: burlywood;
+}
